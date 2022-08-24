@@ -1,0 +1,104 @@
+{
+  "id": "t2k4e-escape-from-kalisz",
+  "name": "t2k4e-escape-from-kalisz",
+  "title": "T2K4E Escape from Kalisz",
+  "description": "Escape from Kalisz is an adventure for Twilight 2000 4th Edition that begins in Poland after the failure of Operation Reset.",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.8.6",
+  "compatibleCoreVersion": "10",
+  "compatibility": {
+    "minimum": "0.8.6",
+    "verified": "10",
+    "maximum": "10"
+  },
+  "author": "Trazzm",
+  "authors": [
+    {
+      "name": "Trazzm",
+      "discord": "Trazzm#1390"
+    }
+  ],
+  "packs": [
+    {
+      "name": "actors",
+      "label": "T2K4E Escape from Kalisz",
+      "path": "/packs/actors.db",
+      "entity": "Actor",
+      "type": "Actor",
+      "system": "t2k4e"
+    },
+    {
+      "name": "cards",
+      "label": "T2K4E Escape from Kalisz",
+      "path": "/packs/cards.db",
+      "entity": "Cards",
+      "type": "Cards"
+    },
+    {
+      "name": "items",
+      "label": "T2K4E Escape from Kalisz",
+      "path": "/packs/items.db",
+      "entity": "Item",
+      "type": "Item",
+      "system": "t2k4e"
+    },
+    {
+      "name": "journals",
+      "label": "T2K4E Escape from Kalisz",
+      "path": "/packs/journals.db",
+      "entity": "JournalEntry",
+      "type": "JournalEntry"
+    },
+    {
+      "name": "macros",
+      "label": "T2K4E Escape from Kalisz",
+      "path": "/packs/macros.db",
+      "entity": "Macro",
+      "type": "Macro"
+    },
+    {
+      "name": "maps",
+      "label": "T2K4E Escape from Kalisz",
+      "path": "/packs/maps.db",
+      "entity": "Scene",
+      "type": "Scene"
+    },
+    {
+      "name": "playlists",
+      "label": "T2K4E Escape from Kalisz",
+      "path": "/packs/playlists.db",
+      "entity": "Playlist",
+      "type": "Playlist"
+    },
+    {
+      "name": "rolltables",
+      "label": "T2K4E Escape from Kalisz",
+      "path": "/packs/rolltables.db",
+      "entity": "RollTable",
+      "type": "RollTable"
+    }
+  ],
+  "esmodules": [
+    "./scripts/init.js"
+  ],
+  "dependencies": [
+    {
+      "name": "scene-packer",
+      "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json",
+      "type": "module"
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "scene-packer",
+        "type": "module",
+        "manifest": "https://github.com/League-of-Foundry-Developers/scene-packer/releases/latest/download/module.json"
+      }
+    ]
+  },
+  "url": "https://github.com/trazzm/t2k4e-escape-from-kalisz",
+  "manifest": "",
+  "download": "",
+  "manifestPlusVersion": "1.2.0"
+}
